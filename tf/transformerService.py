@@ -4,7 +4,7 @@ import torch.optim as optim
 import numpy as np
 import math
 
-
+# Due to a lack of data, hardcoding was employed for this model's data.
 
 tgt_vocab = {'P' : 0, 'i' : 1, 'want' : 2, 'a' : 3, 'beer' : 4, 'coke' : 5, 'S' : 6, 'E' : 7, '.' : 8}
 idx2word = {i: w for i, w in enumerate(tgt_vocab)}
